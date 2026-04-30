@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music - Birthday Surprise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-3">
+        <div class="music-container">
+            <h1>🎵 Until I Found You 🎵</h1>
+            <div class="music-player">
+                <div class="music-icon">🎶</div>
+                <audio id="audioPlayer" controls>
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <p class="music-text">A song for someone special...</p>
+        </div>
+
+        <div class="navigation">
+            <button onclick="goToPage(2)" class="nav-btn">← Back</button>
+            <button onclick="goToPage(4)" class="nav-btn">Next →</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
